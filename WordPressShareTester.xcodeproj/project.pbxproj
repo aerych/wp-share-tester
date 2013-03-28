@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D531B12164800A30046ABD7 /* blavatar-wporg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D531B10164800A30046ABD7 /* blavatar-wporg.png */; };
+		5D531B13164800A30046ABD7 /* blavatar-wporg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D531B11164800A30046ABD7 /* blavatar-wporg@2x.png */; };
+		5DC489E0163D73C700F6D076 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC489DF163D73C700F6D076 /* UIKit.framework */; };
+		5DC489E2163D73C700F6D076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC489E1163D73C700F6D076 /* Foundation.framework */; };
+		5DC489E4163D73C700F6D076 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC489E3163D73C700F6D076 /* CoreGraphics.framework */; };
+		5DC489EA163D73C700F6D076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DC489E8163D73C700F6D076 /* InfoPlist.strings */; };
+		5DC489EC163D73C700F6D076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC489EB163D73C700F6D076 /* main.m */; };
+		5DC489F0163D73C700F6D076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC489EF163D73C700F6D076 /* AppDelegate.m */; };
+		5DC489F2163D73C700F6D076 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC489F1163D73C700F6D076 /* Default.png */; };
+		5DC489F4163D73C700F6D076 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC489F3163D73C700F6D076 /* Default@2x.png */; };
+		5DC489F6163D73C700F6D076 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC489F5163D73C700F6D076 /* Default-568h@2x.png */; };
+		5DC489F9163D73C700F6D076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC489F8163D73C700F6D076 /* ViewController.m */; };
+		5DC489FC163D73C700F6D076 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC489FA163D73C700F6D076 /* ViewController.xib */; };
+		5DC48A0B163DF27900F6D076 /* WordPressShareUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC48A0A163DF27900F6D076 /* WordPressShareUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D531B10164800A30046ABD7 /* blavatar-wporg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blavatar-wporg.png"; sourceTree = "<group>"; };
+		5D531B11164800A30046ABD7 /* blavatar-wporg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blavatar-wporg@2x.png"; sourceTree = "<group>"; };
+		5DC489DB163D73C700F6D076 /* WPShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC489DF163D73C700F6D076 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DC489E1163D73C700F6D076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DC489E3163D73C700F6D076 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DC489E7163D73C700F6D076 /* WordPressShareTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordPressShareTester-Info.plist"; sourceTree = "<group>"; };
+		5DC489E9163D73C700F6D076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DC489EB163D73C700F6D076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DC489ED163D73C700F6D076 /* WordPressShareTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordPressShareTester-Prefix.pch"; sourceTree = "<group>"; };
+		5DC489EE163D73C700F6D076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DC489EF163D73C700F6D076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DC489F1163D73C700F6D076 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5DC489F3163D73C700F6D076 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5DC489F5163D73C700F6D076 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5DC489F7163D73C700F6D076 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DC489F8163D73C700F6D076 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DC489FB163D73C700F6D076 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5DC48A09163DF27900F6D076 /* WordPressShareUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordPressShareUtil.h; sourceTree = "<group>"; };
+		5DC48A0A163DF27900F6D076 /* WordPressShareUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordPressShareUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DC489D8163D73C700F6D076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC489E0163D73C700F6D076 /* UIKit.framework in Frameworks */,
+				5DC489E2163D73C700F6D076 /* Foundation.framework in Frameworks */,
+				5DC489E4163D73C700F6D076 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DC489D0163D73C700F6D076 = {
+			isa = PBXGroup;
+			children = (
+				5DC489E5163D73C700F6D076 /* WordPressShareTester */,
+				5DC489DE163D73C700F6D076 /* Frameworks */,
+				5DC489DC163D73C700F6D076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DC489DC163D73C700F6D076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DC489DB163D73C700F6D076 /* WPShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DC489DE163D73C700F6D076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DC489DF163D73C700F6D076 /* UIKit.framework */,
+				5DC489E1163D73C700F6D076 /* Foundation.framework */,
+				5DC489E3163D73C700F6D076 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DC489E5163D73C700F6D076 /* WordPressShareTester */ = {
+			isa = PBXGroup;
+			children = (
+				5D531B10164800A30046ABD7 /* blavatar-wporg.png */,
+				5D531B11164800A30046ABD7 /* blavatar-wporg@2x.png */,
+				5DC489EE163D73C700F6D076 /* AppDelegate.h */,
+				5DC489EF163D73C700F6D076 /* AppDelegate.m */,
+				5DC489F7163D73C700F6D076 /* ViewController.h */,
+				5DC489F8163D73C700F6D076 /* ViewController.m */,
+				5DC489FA163D73C700F6D076 /* ViewController.xib */,
+				5DC489E6163D73C700F6D076 /* Supporting Files */,
+				5DC48A09163DF27900F6D076 /* WordPressShareUtil.h */,
+				5DC48A0A163DF27900F6D076 /* WordPressShareUtil.m */,
+			);
+			path = WordPressShareTester;
+			sourceTree = "<group>";
+		};
+		5DC489E6163D73C700F6D076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DC489E7163D73C700F6D076 /* WordPressShareTester-Info.plist */,
+				5DC489E8163D73C700F6D076 /* InfoPlist.strings */,
+				5DC489EB163D73C700F6D076 /* main.m */,
+				5DC489ED163D73C700F6D076 /* WordPressShareTester-Prefix.pch */,
+				5DC489F1163D73C700F6D076 /* Default.png */,
+				5DC489F3163D73C700F6D076 /* Default@2x.png */,
+				5DC489F5163D73C700F6D076 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DC489DA163D73C700F6D076 /* WordPressShareTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC489FF163D73C700F6D076 /* Build configuration list for PBXNativeTarget "WordPressShareTester" */;
+			buildPhases = (
+				5DC489D7163D73C700F6D076 /* Sources */,
+				5DC489D8163D73C700F6D076 /* Frameworks */,
+				5DC489D9163D73C700F6D076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordPressShareTester;
+			productName = WordPressShareTester;
+			productReference = 5DC489DB163D73C700F6D076 /* WPShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DC489D2163D73C700F6D076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Automattic Inc.";
+			};
+			buildConfigurationList = 5DC489D5163D73C700F6D076 /* Build configuration list for PBXProject "WordPressShareTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DC489D0163D73C700F6D076;
+			productRefGroup = 5DC489DC163D73C700F6D076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DC489DA163D73C700F6D076 /* WordPressShareTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DC489D9163D73C700F6D076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC489EA163D73C700F6D076 /* InfoPlist.strings in Resources */,
+				5DC489F2163D73C700F6D076 /* Default.png in Resources */,
+				5DC489F4163D73C700F6D076 /* Default@2x.png in Resources */,
+				5DC489F6163D73C700F6D076 /* Default-568h@2x.png in Resources */,
+				5DC489FC163D73C700F6D076 /* ViewController.xib in Resources */,
+				5D531B12164800A30046ABD7 /* blavatar-wporg.png in Resources */,
+				5D531B13164800A30046ABD7 /* blavatar-wporg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DC489D7163D73C700F6D076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC489EC163D73C700F6D076 /* main.m in Sources */,
+				5DC489F0163D73C700F6D076 /* AppDelegate.m in Sources */,
+				5DC489F9163D73C700F6D076 /* ViewController.m in Sources */,
+				5DC48A0B163DF27900F6D076 /* WordPressShareUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DC489E8163D73C700F6D076 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC489E9163D73C700F6D076 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DC489FA163D73C700F6D076 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC489FB163D73C700F6D076 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DC489FD163D73C700F6D076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DC489FE163D73C700F6D076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC48A00163D73C700F6D076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordPressShareTester/WordPressShareTester-Prefix.pch";
+				INFOPLIST_FILE = "WordPressShareTester/WordPressShareTester-Info.plist";
+				PRODUCT_NAME = WPShare;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DC48A01163D73C700F6D076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordPressShareTester/WordPressShareTester-Prefix.pch";
+				INFOPLIST_FILE = "WordPressShareTester/WordPressShareTester-Info.plist";
+				PRODUCT_NAME = WPShare;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DC489D5163D73C700F6D076 /* Build configuration list for PBXProject "WordPressShareTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC489FD163D73C700F6D076 /* Debug */,
+				5DC489FE163D73C700F6D076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC489FF163D73C700F6D076 /* Build configuration list for PBXNativeTarget "WordPressShareTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC48A00163D73C700F6D076 /* Debug */,
+				5DC48A01163D73C700F6D076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DC489D2163D73C700F6D076 /* Project object */;
+}
