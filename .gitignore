@@ -1,6 +1,15 @@
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
 # Xcode
 .DS_Store
-build/
+*/build/*
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -9,10 +18,19 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-*.xcworkspace
-!default.xcworkspace
 xcuserdata
 profile
 *.moved-aside
 DerivedData
 .idea/
+*.hmap
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Subversion
+.svn/
+
