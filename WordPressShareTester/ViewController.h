@@ -3,12 +3,11 @@
 //  WordPressShareTester
 //
 //  Created by Eric J. on 10/28/12.
-//  Copyright (c) 2012 Automattic Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate, UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate>
+@interface ViewController : UIViewController <UIScrollViewDelegate, UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @property (nonatomic, strong) IBOutlet UIView *hitView;
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
